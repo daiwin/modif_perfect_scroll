@@ -9,7 +9,9 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components"
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "jquery": ">=1.10"
@@ -22,5 +24,10 @@
   },
   "_source": "git://github.com/daiwin/modif_perfect_scroll.git",
   "_target": "*",
-  "_originalSource": "cpem_perf_sb"
+  "_originalSource": "cpem_perf_sb",
+  "homepage": "https://github.com/daiwin/modif_perfect_scroll",
+  "authors": [
+    "Andrey Rubailo <daiwin@mail.ru>"
+  ],
+  "license": "MIT"
 }
