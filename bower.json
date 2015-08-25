@@ -1,0 +1,27 @@
+{
+  "name": "cpem_perf_sb",
+  "version": "0.0.1",
+  "description": "CPEM scroll bar",
+  "main": [
+    "src/perfect-scrollbar.css",
+    "src/perfect-scrollbar.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": ">=1.10"
+  },
+  "_release": "0.5.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.5.9",
+    "commit": "f6af3e071110bc09294fb950959051a079897582"
+  },
+  "_source": "git://github.com/daiwin/modif_perfect_scroll.git",
+  "_target": "*",
+  "_originalSource": "cpem_perf_sb"
+}
