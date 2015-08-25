@@ -605,14 +605,14 @@
         }
 
         var isSelected = false;
-        $(ownerDocument).bind(eventClass('selectionchange'), function (e) {
-          if ($.contains($this[0], getRangeNode())) {
-            isSelected = true;
-          } else {
-            isSelected = false;
-            stopScrolling();
-          }
-        });
+        //$(ownerDocument).bind(eventClass('selectionchange'), function (e) {
+          //if ($.contains($this[0], getRangeNode())) {
+            //isSelected = true;
+          //} else {
+            //isSelected = false;
+            //stopScrolling();
+          //}
+        //});
         $(window).bind(eventClass('mouseup'), function (e) {
           if (isSelected) {
             isSelected = false;
